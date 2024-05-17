@@ -1,0 +1,111 @@
+body.light {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --header-background: #282c34;
+  --header-text-color: #ffffff;
+  --section-background: #f9f9f9;
+  --section-text-color: #000000;
+}
+
+body.dark {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --header-background: #1e1e1e;
+  --header-text-color: #ffffff;
+  --section-background: #1e1e1e;
+  --section-text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background: var(--header-background);
+  padding: 20px;
+  color: var(--header-text-color);
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: var(--header-text-color);
+  text-decoration: none;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--header-text-color);
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 40px 0;
+  background: var(--section-background);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  background: var(--header-background);
+  color: var(--header-text-color);
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.services {
+  padding: 20px;
+}
+
+.services h2 {
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service {
+  width: 30%;
+  background: var(--background-color);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service h3 {
+  margin-top: 0;
+  color: var(--text-color);
+}
