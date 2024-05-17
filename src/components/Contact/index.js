@@ -5,7 +5,8 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <h2>Contact Us</h2>
-      <form>
+      <div >
+      <form className="Container">
         <label>
           Name:
           <input type="text" name="name" />
@@ -18,8 +19,11 @@ function Contact() {
           Message:
           <textarea name="message"></textarea>
         </label>
+        <div>
         <button type="submit">Send</button>
+        </div>
       </form>
+      </div>
     </section>
   );
 }

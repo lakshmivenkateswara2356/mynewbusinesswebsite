@@ -109,3 +109,10 @@ footer {
   margin-top: 0;
   color: var(--text-color);
 }
+
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
