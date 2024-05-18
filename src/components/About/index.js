@@ -9,6 +9,7 @@ function About() {
       <div>
       <h1> What Our clients talk abut us</h1>
       <p>Really appriciate work of Developer services was good interaction and understanding the project requirements</p>
+      <p>One of the best services ever i ever seen </p>
       </div>
     </section>
   );
