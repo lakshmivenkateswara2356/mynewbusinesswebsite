@@ -117,3 +117,15 @@ footer {
   justify-content: center;
 }
 
+.clintsection {
+  background-color: gray;
+  height: 50px;
+  width: 150px;
+}
+
+.about {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  
+}
