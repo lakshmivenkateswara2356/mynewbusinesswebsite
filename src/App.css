@@ -144,3 +144,10 @@ footer {
   flex-direction: row;
   justify-content: center;
 }
+
+.totalcontact {
+  background-color: #696565;
+  height: 100%;
+  padding: 120px;
+  color: white;
+}
