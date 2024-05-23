@@ -153,3 +153,8 @@ footer {
   padding: 120px;
   color: white;
 }
+
+.portfolio {
+  background-color: aqua;
+  height: 100vh;
+}
