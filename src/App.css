@@ -86,6 +86,8 @@ footer {
 
 .services {
   padding: 20px;
+  background-color: aquamarine;
+  height: 100vh;
 }
 
 .services h2 {
