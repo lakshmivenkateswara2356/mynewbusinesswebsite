@@ -23,8 +23,9 @@ function App() {
       <Header toggleTheme={toggleTheme} theme={theme} />
       <main>
       <About />
+      <Services />
       <Portfolio />
-        <Services />
+        
         <Contact />
       </main>
       <Footer />

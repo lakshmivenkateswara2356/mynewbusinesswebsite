@@ -89,7 +89,6 @@ footer {
 
 .services {
   padding: 20px;
-  background-color: aquamarine;
   height: 100vh;
 }
 
@@ -133,7 +132,7 @@ footer {
   flex-direction:column;
   justify-content: center;
   height: 100vh;
-  background-color: #282c34;
+  
   
 }
 
@@ -153,13 +152,20 @@ footer {
 }
 
 .totalcontact {
-  background-color: #696565;
+  
   height: 100vh;
   
   color: white;
 }
 
 .portfolio {
-  background-color: aqua;
+  
   height: 100vh;
+}
+
+
+.messaret{
+  height: 120px;
+  width: 20px;
+  border-radius: 12px;
 }
