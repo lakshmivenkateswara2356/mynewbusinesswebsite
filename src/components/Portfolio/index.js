@@ -11,7 +11,7 @@ function Portfolio() {
         </div>
         <div className="portfolio-item">
           <h3>Nextrendz</h3>
-          <p>Description of Project 2.</p>
+          <p>Shopping applicaton using technologies like html ,css, and javascript ,React.js</p>
         </div>
         <div className="portfolio-item">
           <h3>Dashboard</h3>
