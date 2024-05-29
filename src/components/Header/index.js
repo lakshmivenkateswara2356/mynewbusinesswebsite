@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Header({ toggleTheme, theme }) {
   return (
     <header className="header">
@@ -11,11 +10,21 @@ function Header({ toggleTheme, theme }) {
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
+
+          <input
+              type="checkbox"
+              id="theme-toggle"
+              checked={theme === 'dark'}
+              onChange={toggleTheme}
+            />
+            <label htmlFor="theme-toggle">
+              {theme === 'light'}
+            </label>
         </ul>
+        
       </nav>
-      <button className="theme-toggle" onClick={toggleTheme}>
-        {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
-      </button>
+
+      
     </header>
   );
 }

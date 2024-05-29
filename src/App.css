@@ -5,6 +5,10 @@ body.light {
   --header-text-color: #ffffff;
   --section-background: #f9f9f9;
   --section-text-color: #000000;
+  --toggle-background: gold;
+  --toggle-shadow: none;
+  --sun-color: #000;
+  --moon-color: #ddd;
 }
 
 body.dark {
@@ -14,6 +18,10 @@ body.dark {
   --header-text-color: #ffffff;
   --section-background: #1e1e1e;
   --section-text-color: #ffffff;
+  --toggle-background: transparent;
+  --toggle-shadow: inset -18px -16px 1px 1px #fff;
+  --sun-color: #222;
+  --moon-color: #fff;
 }
 
 body {
@@ -36,15 +44,16 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  
 }
 
 header h1 {
-  margin: 0;
+  margin-left: -202px;
 }
 
 header nav ul {
   list-style: none;
-  padding: 0;
+  margin-left: 202px;
 }
 
 header nav ul li {
@@ -57,18 +66,56 @@ header nav ul li a {
   text-decoration: none;
 }
 
-.theme-toggle {
-  background: none;
-  border: none;
-  color: var(--header-text-color);
-  cursor: pointer;
-  font-size: 16px;
-  margin-left: 20px;
+
+
+.intro-text {
+  top: 180px;
+  font-size: 1.6em;
+  font-family: monospace;
 }
+
+[class*=text-] {
+  font-size: 1.2em;
+  font-weight: 600;
+  transition: color 500ms ease-in;
+}
+
+.text-sun {
+  color: var(--sun-color);
+}
+
+.text-moon {
+  color: var(--moon-color);
+}
+
+#theme-toggle {
+  visibility: hidden;
+}
+
+#theme-toggle + label {
+  content: '';
+  display: inline-block;
+  cursor: pointer;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  background-color: var(--toggle-background);
+  box-shadow: var(--toggle-shadow);
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  margin-left: 175px;
+}
+
+
 
 main {
   padding: 20px;
 }
+.header{
+  background-color: rgb(192, 43, 105);
+}
+
+
 
 section {
   margin: 40px 0;
@@ -90,6 +137,7 @@ footer {
 .services {
   padding: 20px;
   height: 100vh;
+  
 }
 
 .services h2 {
@@ -103,10 +151,14 @@ footer {
 }
 
 .service {
-  width: 30%;
-  background: var(--background-color);
+  width:420px;
+  background:gray;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: rgba(178, 82, 120, 0.295);
+  text-align: center;
+  opacity: 1;
+  border-radius: 32px;
 }
 
 .service h3 {
