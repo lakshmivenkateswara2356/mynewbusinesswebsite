@@ -6,7 +6,7 @@ function Portfolio() {
       <h2>Portfolio</h2>
       <div className="portfolio-list">
         <div className="portfolio-item">
-          <h3>Project 1</h3>
+          <h3>Chating app</h3>
           <p>Description of Project 1.</p>
         </div>
         <div className="portfolio-item">
