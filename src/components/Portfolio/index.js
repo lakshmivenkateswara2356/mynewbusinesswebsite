@@ -14,7 +14,7 @@ function Portfolio() {
           <p>Description of Project 2.</p>
         </div>
         <div className="portfolio-item">
-          <h3>Project 3</h3>
+          <h3>Dashboard</h3>
           <p>Description of Project 3.</p>
         </div>
       </div>
