@@ -11,6 +11,7 @@ function Services() {
           <h3>Frontend Development</h3>
           <p>Creating responsive and interactive user interfaces.</p>
           <p>using latest technologies was developing</p>
+          <h1>heeroo</h1>
         </div>
         <div className="service">
 
