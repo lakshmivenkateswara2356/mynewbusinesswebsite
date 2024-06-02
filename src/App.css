@@ -19,7 +19,7 @@ body.dark {
   --section-background: #1e1e1e;
   --section-text-color: #ffffff;
   --toggle-background: transparent;
-  --toggle-shadow: inset -18px -16px 1px 1px #fff;
+  --toggle-shadow: inset -8px -9px 1px 1px #fff;
   --sun-color: #222;
   --moon-color: #fff;
 }
