@@ -6,6 +6,9 @@ function About() {
     <div id="about" className="about">
      
       <h2>About Us</h2>
+<h1>we are providing quality services</h1>
+
+
       <p>We are a team of experienced fullstack and frontend developers dedicated to building high-quality web applications.</p>
       
       <h1> What Our clients talk abut us</h1>
@@ -22,6 +25,7 @@ function About() {
       </div>
       <p>One of the best services ever i ever seen </p>
       <h1>we are providing quality services</h1>
+
       <h1>how ever</h1>
 
 
