@@ -38,10 +38,10 @@ body {
 }
 
 header {
-  background: var(--header-background);
+ 
   padding: 20px;
   color: var(--header-text-color);
-  background-color: tiber;
+ 
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
