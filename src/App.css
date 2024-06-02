@@ -39,7 +39,7 @@ body {
 
 header {
  
-  padding: 20px;
+  
   color: var(--header-text-color);
  
   display: flex;
@@ -51,12 +51,12 @@ header {
 }
 
 header h1 {
-  margin-left: -202px;
+  margin-right:32px;
 }
 
 header nav ul {
   list-style: none;
-  margin-left: 202px;
+  margin-left: 702px;
 }
 
 header nav ul li {
@@ -106,7 +106,7 @@ header nav ul li a {
   box-shadow: var(--toggle-shadow);
   transition: all 0.3s ease-in-out;
   position: fixed;
-  margin-left: 175px;
+  margin-left: px;
 }
 
 
@@ -116,7 +116,7 @@ main {
 }
 .header{
   background-color:#022742;
-  height: 52px;
+  height: 82px;
 }
 
 
