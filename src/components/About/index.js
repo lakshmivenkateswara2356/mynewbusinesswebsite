@@ -21,6 +21,7 @@ function About() {
       <p>Really appriciate work of Developer services was good interaction and understanding the project requirements</p></div>
       </div>
       <p>One of the best services ever i ever seen </p>
+      <h1>we are providing quality services</h1>
       <h1>how ever</h1>
 
 
