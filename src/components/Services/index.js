@@ -25,6 +25,7 @@ function Services() {
         </div>
         <div className="service">
           <h3>Fullstack Solutions</h3>
+          <h1>gtr</h1>
           <p>developing full web application wether are noo one</p>
           <p>Providing complete end-to-end web development services.</p>
           <h1>hello</h1>
