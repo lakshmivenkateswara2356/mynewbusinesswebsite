@@ -16,6 +16,7 @@ function Services() {
 
           <h3>Backend Development</h3>
           <p>using technologies was latest</p>
+          <p>everyone</p>
           <p>Building robust server-side applications and RESTful APIs.</p>
         </div>
         <div className="service">
