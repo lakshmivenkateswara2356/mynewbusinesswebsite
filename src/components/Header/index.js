@@ -3,7 +3,7 @@ import React from 'react';
 function Header({ toggleTheme, theme }) {
   return (
     <header className="header">
-      <h1 className='vasublogee'><a href="#services">Developer Services</a></h1>
+      <h1 ><a className='vasublogee' href="#services">Developer Services</a></h1>
       <nav>
         <ul>
           <li><a href="#services">Services</a></li>
