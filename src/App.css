@@ -1,9 +1,9 @@
 body.light {
-  --background-color: #89abb3;
+  --background-color:white;
   --text-color: #000000;
   --header-background: #1158e7;
   --header-text-color: #ffffff;
-  --section-background: #8bb7bb;
+  --section-background:white;
   --section-text-color: #000000;
   --toggle-background: gold;
   --toggle-shadow: none;
