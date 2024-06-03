@@ -15,7 +15,6 @@ function About() {
 
       <div className="clintser">
       <p>Really appriciate work of Developer services was good interaction and understanding the project requirements</p></div>
-
       <div className="clintser">
       <p>Really appriciate work of Developer services was good interaction and understanding the project requirements</p></div>
       </div>
