@@ -1,9 +1,9 @@
 body.light {
-  --background-color: #ffffff;
+  --background-color: #89abb3;
   --text-color: #000000;
   --header-background: #1158e7;
   --header-text-color: #ffffff;
-  --section-background: #f9f9f9;
+  --section-background: #8bb7bb;
   --section-text-color: #000000;
   --toggle-background: gold;
   --toggle-shadow: none;
@@ -12,11 +12,11 @@ body.light {
 }
 
 body.dark {
-  --background-color: #121212;
+  --background-color:black;
   --text-color: #ffffff;
   --header-background: #064439;
   --header-text-color: #ffffff;
-  --section-background: #1e1e1e;
+  --section-background:black;
   --section-text-color: #ffffff;
   --toggle-background: transparent;
   --toggle-shadow: inset -8px -9px 1px 1px #fff;
