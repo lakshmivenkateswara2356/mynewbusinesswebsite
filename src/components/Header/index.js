@@ -10,7 +10,6 @@ function Header({ toggleTheme, theme }) {
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
-
           <input
               type="checkbox"
               id="theme-toggle"
