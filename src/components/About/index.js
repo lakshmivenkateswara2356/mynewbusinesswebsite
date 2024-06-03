@@ -24,12 +24,6 @@ function About() {
 
       <h1>how ever</h1>
 
-
-
-      
-
-
-     
     </div>
   );
 }
