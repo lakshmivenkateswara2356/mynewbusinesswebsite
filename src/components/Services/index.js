@@ -27,7 +27,6 @@ function Services() {
           
           <p>developing full web application wether are noo one</p>
           <p>Providing complete end-to-end web development services.</p>
-          
         </div>
       </div>
       </marquee>
