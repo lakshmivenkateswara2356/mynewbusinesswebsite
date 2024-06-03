@@ -21,9 +21,7 @@ function Header({ toggleTheme, theme }) {
             </label>
         </ul>
         
-      </nav>
-
-      
+      </nav> 
     </header>
   );
 }
