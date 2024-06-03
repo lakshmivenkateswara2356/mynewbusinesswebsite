@@ -12,7 +12,7 @@ function Services() {
           <p>Creating responsive and interactive user interfaces.</p>
           <p>using latest technologies was developing</p>
           
-          <p> adding ambientsun</p>
+          
         </div>
         <div className="service">
 
