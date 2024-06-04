@@ -1,10 +1,11 @@
 import React from 'react';
+import image from '../../Assets/company.png'
 
 
 function Header({ toggleTheme, theme }) {
   return (
     <header className="header">
-      <h1><a href="#about">My Blog</a></h1>
+      <h1><a href="#about"><img src={image} alt="image" className="image"/></a></h1>
       <nav>
         <ul>
         <li><a href="#about">About</a></li>

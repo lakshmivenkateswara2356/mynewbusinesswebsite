@@ -10,7 +10,7 @@ function Portfolio() {
         <div className="portfolio-item">
           <h3>Chatting App</h3>
           <p>Creating a real-time chatting application using React.js</p>
-          <button className="view-button">View Project</button>
+          <button  className="view-button" ><a herf="https://vercel.com/venkateswara">View Project</a></button>
         </div>
         <div className="portfolio-item">
           <h3>Nextrendz</h3>

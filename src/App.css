@@ -58,7 +58,7 @@ body {
   background-color: #405d97;
   color: var(--header-text-color);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px;
   height: 35px;
@@ -150,7 +150,11 @@ footer {
 
 }
 
-
+.image {
+  height: 45px;
+  width: 45px;
+  border-radius: 22px;
+}
 
 
 
