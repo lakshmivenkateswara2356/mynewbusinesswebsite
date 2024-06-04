@@ -16,6 +16,7 @@ function Portfolio() {
         <div className="portfolio-item">
           <h3>Dashboard</h3>
           <p>Description of Project 3.</p>
+          <h1>mainf hedd</h1>
         </div>
       </div>
     </section>
