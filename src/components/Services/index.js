@@ -5,7 +5,7 @@ function Services() {
   return (
     <section id="services" className="services">
       <h2>Our Services</h2>
-      <marquee>
+      
       <div className="service-list">
         <div className="service">
           <h3>Frontend Development</h3>
@@ -23,7 +23,7 @@ function Services() {
           <p>Providing complete end-to-end web development services.</p>
         </div>
       </div>
-      </marquee>
+      
     </section>
   );
 }
