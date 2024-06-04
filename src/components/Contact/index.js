@@ -9,15 +9,15 @@ function Contact() {
       <form className="Container">
         <label>
           
-          <input type="text" name="name"className="nameele" placeholder="Nmae" />
+          <input type="text" name="name"className="nameele" placeholder="Name" />
         </label>
         <label>
          
           <input type="email" name="email"className="nameele" placeholder="Email"  />
         </label>
         <label >
-          Message:
-          <textarea type="" name="message" className="messaret"></textarea>
+          
+          <textarea type="" name="message" className="messaret" placeholder="Enter your text here"></textarea>
         </label>
         <div>
         <button type="submit">Send</button>

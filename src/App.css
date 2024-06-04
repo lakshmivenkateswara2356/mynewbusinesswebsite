@@ -243,6 +243,7 @@ footer {
   border-style: solid;
   margin-top: 12px;
   border-color: #1158e7;
+  text-align: center;
 }
 
 
@@ -255,4 +256,5 @@ footer {
   border-style: solid;
   border-color: #1158e7;
   text-align: center;
+  
 }
