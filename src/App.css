@@ -149,6 +149,11 @@ footer {
   width: 100%;
 }
 
+
+
+
+
+
 .underline {
   background-color: #405d97;
   height: 3.5px;
@@ -165,7 +170,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: -57px;
+  margin-top: -37px;
 }
 
 .adjustmentleccc {
@@ -173,7 +178,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: -37px;
+  margin-top: -12px;
 }
 
 
@@ -313,3 +318,72 @@ footer {
   }
 }
 
+/* Portfolio.css */
+
+.portfolio {
+  padding: 2em;
+  background: var(--section-background);
+  text-align: center;
+ 
+}
+
+.portfolio-title {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  color: var(--textee-color);
+}
+
+.underline {
+  width: 5em;
+  height: 4px;
+  background-color: #007bff;
+  margin: 0 auto 2em;
+  border-radius: 2px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-item {
+  background: var(--section-background);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  margin: 1em;
+  padding: 1.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item h3 {
+  font-size: 1.5em;
+  color: #007bff;
+  margin-bottom: 0.5em;
+}
+
+.portfolio-item p {
+  color: var(--texte-color);
+  margin-bottom: 1em;
+}
+
+.view-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
