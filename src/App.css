@@ -147,6 +147,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+
 }
 
 
@@ -365,7 +366,7 @@ footer {
 
 .portfolio-item h3 {
   font-size: 1.5em;
-  color: #007bff;
+  color: #405d97;
   margin-bottom: 0.5em;
 }
 
@@ -375,7 +376,7 @@ footer {
 }
 
 .view-button {
-  background-color: #007bff;
+  background-color: #405d97;
   color: white;
   padding: 0.5em 1em;
   border: none;
