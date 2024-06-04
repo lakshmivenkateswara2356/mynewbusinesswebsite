@@ -6,6 +6,7 @@
   --header-text-color: #ffffff;
   --section-background: white;
   --section-text-color: #000000;
+  --text-family:cavet;
  
   --toggle-shadow: none;
   --sun-color: #000;
@@ -240,6 +241,7 @@ footer {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: var(--textee-color);
+  font-family: var(--text-family);
 }
 
 .aboutsection {
@@ -247,18 +249,21 @@ footer {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: var(--textee-color);
+  font-family: var(--text-family);
 }
 
 .portfolop {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: var(--textee-color); 
+  color: var(--textee-color);
+  font-family: var(--text-family); 
 }
 
 .Oursection {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: var(--textee-color);
+  font-family: var(--text-family);
 }
 
 .form-container {
@@ -336,6 +341,7 @@ footer {
   font-size: 2.5em;
   margin-bottom: 0.5em;
   color: var(--textee-color);
+  font-family:var(--text-family);
 }
 
 .underline {
@@ -372,6 +378,7 @@ footer {
   font-size: 1.5em;
   color: #405d97;
   margin-bottom: 0.5em;
+ 
 }
 
 .portfolio-item p {
