@@ -7,6 +7,7 @@ function Portfolio() {
       <div className="portfolio-list">
         <div className="portfolio-item">
           <h3>Chating app</h3>
+          <p>hfisgiy kseuf</p>
           <p>Creating a real time chating application using react.js</p>
         </div>
         <div className="portfolio-item">
