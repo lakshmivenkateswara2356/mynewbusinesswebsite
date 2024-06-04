@@ -3,26 +3,21 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section id="contact" className="totalcontact">
+    <section id="contact" className="contact-section">
       <h2>Contact Us</h2>
-      <div >
-      <form className="Container">
-        <label>
-          
-          <input type="text" name="name"className="nameele" placeholder="Name" />
-        </label>
-        <label>
-         
-          <input type="email" name="email"className="nameele" placeholder="Email"  />
-        </label>
-        <label >
-          
-          <textarea type="" name="message" className="messaret" placeholder="Enter your text here"></textarea>
-        </label>
-        <div>
-        <button type="submit">Send</button>
-        </div>
-      </form>
+      <div className="form-container">
+        <form className="contact-form">
+          <label>
+            <input type="text" name="name" className="input-field" placeholder="Name" />
+          </label>
+          <label>
+            <input type="email" name="email" className="input-field" placeholder="Email" />
+          </label>
+          <label>
+            <textarea name="message" className="textarea-field" placeholder="Enter your message here"></textarea>
+          </label>
+          <button type="submit" className="submit-button">Send</button>
+        </form>
       </div>
     </section>
   );
