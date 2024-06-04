@@ -9,6 +9,7 @@ function Services() {
       <div className="service-list">
         <div className="service">
           <h3>Frontend Development</h3>
+          <p>hdhhdh dujuj</p>
           <p>Creating responsive and interactive user interfaces.</p>
           <p>using latest technologies was developing</p>
         </div>
