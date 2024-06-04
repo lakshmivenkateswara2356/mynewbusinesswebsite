@@ -242,6 +242,7 @@ footer {
   border-color:gray;
   border-style: solid;
   margin-top: 12px;
+  border-color: #1158e7;
 }
 
 
@@ -249,7 +250,7 @@ footer {
   margin-top: 12px;
   width: 310px;
   height: 22px;
-  border-radius: 12px;
+  border-radius: 8px;
   border-width: 1px;
   border-style: solid;
   border-color: #1158e7;
