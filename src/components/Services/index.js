@@ -12,7 +12,6 @@ function Services() {
          
           <p>Creating responsive and interactive user interfaces.</p>
           <p>using latest technologies was developing</p>
-          
         </div>
         <div className="service">
           <h3>Backend Development</h3>
