@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Preloader from "../src/components/pre";
 import Header from './components/Header';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
@@ -9,6 +10,15 @@ import './App.css';
 
 function App() {
   const [theme, setTheme] = useState('light');
+  const [load, upadateLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     document.body.className = theme;
@@ -20,6 +30,9 @@ function App() {
 
   return (
     <div className={`App ${theme}`}>
+      <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}></div>
+      
       <Header toggleTheme={toggleTheme} theme={theme} />
       <main>
       
