@@ -8,12 +8,12 @@ function Contact() {
       <div >
       <form className="Container">
         <label>
-          Name:
-          <input type="text" name="name"className="nameele" />
+          
+          <input type="text" name="name"className="nameele" placeholder="Nmae" />
         </label>
         <label>
-          Email:
-          <input type="email" name="email"className="nameele" />
+         
+          <input type="email" name="email"className="nameele" placeholder="Email"  />
         </label>
         <label >
           Message:
