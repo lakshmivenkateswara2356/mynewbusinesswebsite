@@ -4,7 +4,7 @@ import React from 'react';
 function Services() {
   return (
     <section id="services" className="services">
-      <h2>Our Services</h2>
+      <h2 className="Oursection">Our Services</h2>
       
       <div className="service-list">
         <div className="service">

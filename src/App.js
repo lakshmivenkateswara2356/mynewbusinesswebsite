@@ -22,9 +22,9 @@ function App() {
     <div className={`App ${theme}`}>
       <Header toggleTheme={toggleTheme} theme={theme} />
       <main>
-      <Services />
-      <About />
       
+      <About />
+      <Services />
       <Portfolio />
         
         <Contact />

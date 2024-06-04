@@ -14,11 +14,12 @@
 
 body.light {
   --background-color: white;
-  --text-color: #405d97;
+  --textee-color: #405d97;
+  --text-color:black;
   --header-background: #1158e7;
   --header-text-color: #ffffff;
   --section-background: white;
-  --section-text-color: #000000;
+  --section-text-color: #405d97;
   
   --toggle-shadow: none;
   --sun-color: #000;
@@ -27,11 +28,12 @@ body.light {
 
 body.dark {
   --background-color: black;
-  --text-color: #ffffff;
+  --textee-color: gray;
+  --text-color:white;
   --header-background: black;
-  --header-text-color: #ffffff;
+  --header-text-color:#ffffff;
   --section-background: black;
-  --section-text-color: #ffffff;
+  --section-text-color:gray;
   --toggle-background: transparent;
   
   --sun-color: #222;
@@ -152,7 +154,7 @@ footer {
 
 .services h2 {
   margin-bottom: 20px;
-  color: var(--text-color);
+  color: var(--textee-color);
 }
 
 .service-list {
@@ -181,7 +183,7 @@ footer {
 
 .service h3 {
   margin-top: 0;
-  color: var(--text-color);
+  color: var(--textee-color);
 }
 
 
@@ -195,7 +197,26 @@ footer {
 .contact-section h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #515151;
+  color: var(--textee-color);
+}
+
+.aboutsection {
+
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: var(--textee-color);
+}
+
+.portfolop {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: var(--textee-color); 
+}
+
+.Oursection {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: var(--textee-color);
 }
 
 .form-container {
