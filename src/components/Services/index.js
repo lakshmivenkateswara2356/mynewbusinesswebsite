@@ -6,7 +6,7 @@ function Services() {
     <section id="services" className="services">
       <h2>Our Services</h2>
       <marquee>
-      <div cla>ssName="service-list">
+      <div className="service-list">
         <div className="service">
           <h3>Frontend Development</h3>
           <p>hdhhdh dujuj</p>
@@ -16,7 +16,7 @@ function Services() {
         </div>
         <div className="service">
           <h3>Backend Development</h3>
-          <p>hhsb js jshjs jsh </p>
+          <h1>hfejbf eikfkhue juerf </h1>
           <p>using technologies was latest</p>
           <p>Building robust server-side applications and RESTful APIs.</p>
         </div>
@@ -27,7 +27,8 @@ function Services() {
           <p>Providing complete end-to-end web development services.</p>
           <p>kjsdgf subd </p>
           <h1>hduggwug</h1>
-          <h1+
+          <h1>bshvhvb</h1>
+          <p>tfhgf yguyguyygyf hfh</p>
           <h1>forcd</h1>
         </div>
       </div>
