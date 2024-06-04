@@ -1,12 +1,12 @@
 /* Header.css */
 :root {
-  --background-color: white;
+ 
   --text-color: #405d97;
   --header-background: #1158e7;
   --header-text-color: #ffffff;
   --section-background: white;
   --section-text-color: #000000;
-  --toggle-background: gold;
+  
   --toggle-shadow: none;
   --sun-color: #000;
   --moon-color: #ddd;
