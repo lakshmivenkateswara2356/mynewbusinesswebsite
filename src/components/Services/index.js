@@ -23,8 +23,6 @@ function Services() {
           <h1>delevering</h1>
           <p>developing full web application wether are noo one</p>
           <p>Providing complete end-to-end web development services.</p>
-         
-          <h1>forcd</h1>
         </div>
       </div>
       </marquee>
