@@ -5,8 +5,10 @@ function Services() {
   return (
     <section id="services" className="services">
       <h2 className="Oursection">Our Services</h2>
+      <div className="adjustmentleccc"><h1 className="underline"></h1></div>
       
       <div className="service-list">
+        
         <div className="service">
           <h3>Frontend Development</h3>
           <p>Creating responsive and interactive user interfaces.</p>

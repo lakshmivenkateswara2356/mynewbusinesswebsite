@@ -147,6 +147,36 @@ footer {
   width: 100%;
 }
 
+.underline {
+  background-color: #405d97;
+  height: 3.5px;
+  border-radius: 55px;
+  width: 113px;
+  
+}
+
+
+
+
+
+.adjustmentlec{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -57px;
+}
+
+.adjustmentleccc {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -37px;
+}
+
+
+
+
 .services {
   padding: 20px;
   height: 100vh;

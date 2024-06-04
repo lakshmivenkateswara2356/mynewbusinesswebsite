@@ -4,6 +4,7 @@ function Portfolio() {
   return (
     <section id="portfolio" className="portfolio">
       <h2 className="portfolop">Portfolio</h2>
+      <div className="adjustmentlec"><h1 className="underline"></h1></div>
       <div className="portfolio-list">
         <div className="portfolio-item">
           <h3>Chating app</h3>
