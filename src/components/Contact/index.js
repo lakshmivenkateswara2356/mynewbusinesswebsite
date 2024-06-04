@@ -9,11 +9,11 @@ function Contact() {
       <form className="Container">
         <label>
           Name:
-          <input type="text" name="name" />
+          <input type="text" name="name"className="nameele" />
         </label>
         <label>
           Email:
-          <input type="email" name="email" />
+          <input type="email" name="email"className="nameele" />
         </label>
         <label >
           Message:

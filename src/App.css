@@ -1,6 +1,6 @@
 body.light {
   --background-color:white;
-  --text-color: #000000;
+  --text-color: #405d97;
   --header-background: #1158e7;
   --header-text-color: #ffffff;
   --section-background:white;
@@ -14,7 +14,7 @@ body.light {
 body.dark {
   --background-color:black;
   --text-color: #ffffff;
-  --header-background: #064439;
+  --header-background:black;
   --header-text-color: #ffffff;
   --section-background:black;
   --section-text-color: #ffffff;
@@ -41,6 +41,7 @@ header {
  
   
   color: var(--header-text-color);
+  
  
   display: flex;
   flex-direction: row;
@@ -115,7 +116,7 @@ main {
   padding: 20px;
 }
 .header{
-  background-color:#022742;
+  background-color:#405d97;
   height: 82px;
 }
 
@@ -145,13 +146,14 @@ footer {
 .services {
   padding: 20px;
   height: 100vh;
-  
+ 
   
 }
 
 .services h2 {
   margin-bottom: 20px;
   color: var(--text-color);
+  
 }
 
 .service-list {
@@ -161,10 +163,13 @@ footer {
 
 .service {
   width:420px;
-  
+  height: 320px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  background-color: rgba(178, 82, 120, 0.295);
+  
+  border-width: 1px;
+  border-style: solid;
+  border-color: #405d97;
   text-align: center;
   opacity: 1;
   border-radius: 32px;
@@ -198,8 +203,10 @@ footer {
 }
 
 .clintser{
-  background-color: #696565;
-  color: white;
+  
+ border-width: 1px;
+ border-style: solid;
+ border-color: ;
   width: 50rem;
   height: 8rem;
   border-radius: 12px;
@@ -233,4 +240,16 @@ footer {
   border-width: 0.1px;
   border-color:gray;
   border-style: solid;
+  margin-top: 12px;
+}
+
+
+.nameele {
+  margin-top: 12px;
+  width: 310px;
+  height: 22px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1158e7;
 }
