@@ -20,7 +20,7 @@ function Header({ toggleTheme, theme }) {
               onChange={toggleTheme}
             />
             <label htmlFor="theme-toggle" className="theme-toggle-label">
-              {theme === 'light' ? '☀️' : '🌒'}
+              {theme === 'light' ? '☀️' : '🌑'}
             </label>
           </li>
         </ul>

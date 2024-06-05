@@ -2,6 +2,7 @@
 :root {
   --background-color: white;
   --text-color: #405d97;
+  --texteee-color:rgb(138, 138, 138);
   --header-background: #1158e7;
   --header-text-color: #ffffff;
   --section-background: white;
@@ -21,7 +22,7 @@ body.light {
   --header-text-color: #ffffff;
   --section-background: white;
   --section-text-color: #405d97;
-  
+  --textert-color:white;
   --toggle-shadow: none;
   --sun-color: #000;
   --moon-color: #ddd;
@@ -30,10 +31,12 @@ body.light {
 body.dark {
   --background-color: black;
   --textee-color: gray;
+  --font-family:bold;
   --text-color:white;
   --header-background: black;
   --header-text-color:#ffffff;
   --section-background: black;
+  --textert-color:gray;
   --section-text-color:gray;
   --toggle-background: transparent;
   
@@ -59,7 +62,7 @@ body {
   background-color: #405d97;
   color: var(--header-text-color);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   height: 35px;
@@ -72,11 +75,20 @@ header h1 a {
   
 }
 
+
+.allpara-styels {
+  color: var(--texteee-color);
+  font-weight: bold;
+}
+
+
+
 header nav ul {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
+  
   align-items: center;
 }
 
@@ -143,7 +155,8 @@ section {
 
 footer {
   background: var(--header-background);
-  color: var(--header-text-color);
+  color: var(--textert-color);
+  font-weight: var(--font-family);
   padding: 10px 0;
   position: fixed;
   bottom: 0;
@@ -160,7 +173,7 @@ footer {
 
 
 
-.underline {
+.underlinee {
   background-color: #405d97;
   height: 3.5px;
   border-radius: 55px;
@@ -184,16 +197,24 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: -12px;
+  margin-top: -20px;
+}
+
+.abouthedingstyle {
+  font-family:caveat;
+  
+ 
+  
+}
+
+.molp-para{
+  max-width: 380px;
 }
 
 
 
 
-.services {
-  padding: 20px;
-  height: 100vh;
-}
+
 
 .services h2 {
   margin-bottom: 20px;
@@ -212,9 +233,9 @@ footer {
   margin: 20px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border: 1px solid #405d97;
+  border: 2px solid #405d97;
   text-align: center;
-  border-radius: 32px;
+  border-radius: 15px;
   background-color: var(--section-background);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -281,12 +302,14 @@ footer {
 
 .input-field,
 .textarea-field {
-  padding: 15px;
+  padding: 18px;
   border-radius: 8px;
-  border: 1px solid #1158e7;
+  border: 1px solid var(--textee-color);
+  background-color:var(--background-color);
   font-size: 1rem;
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
+  border-width: 2px;
 }
 
 .input-field:focus,
@@ -334,7 +357,6 @@ footer {
   padding: 2em;
   background: var(--section-background);
   text-align: center;
- 
 }
 
 .portfolio-title {
@@ -347,7 +369,7 @@ footer {
 .underline {
   width: 5em;
   height: 4px;
-  background-color: #007bff;
+  background-color: #405d97;
   margin: 0 auto 2em;
   border-radius: 2px;
 }
@@ -398,4 +420,43 @@ footer {
 
 .view-button:hover {
   background-color: #0056b3;
+}
+
+
+.sizing {
+  
+  border-radius: 23px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #405d97;
+}
+
+.clintinage {
+  height:75px ;
+  border-radius: 145px;
+  margin-top: 30px;
+  
+}
+
+.settingclintsection {
+  display: flex;
+  justify-content:row;
+
+}
+
+.clintser {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.elementalingmen {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+
+ padding: 43px;
 }
