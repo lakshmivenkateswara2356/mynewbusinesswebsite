@@ -307,6 +307,7 @@ footer {
   border: 1px solid var(--textee-color);
   background-color:var(--background-color);
   font-size: 1rem;
+  color: var(--texte-color);
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
   border-width: 2px;
