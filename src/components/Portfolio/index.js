@@ -89,7 +89,7 @@ function Portfolio() {
             <div className="clintser">
               <img src={clintpicon} alt="clint" className="clintinage" />
               <div className="elementalingmen">
-                <h1>{testimonial.name}</h1>
+                <h1 className="deroomi">{testimonial.name}</h1>
                 <p className="molp-para">{testimonial.text}</p>
               </div>
             </div>

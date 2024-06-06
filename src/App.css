@@ -531,11 +531,16 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: #fff;
+  background: var(--background-color);
   padding: 1rem;
   border-radius: 8px;
+  color:#405d97 ;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+
+
 
 .clintinage {
   border-radius: 50%;
@@ -547,7 +552,8 @@ footer {
 
 .elementalingmen h1 {
   font-size: 1.5rem;
-  color: #333;
+  color:#405d97 ;
+  font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
@@ -562,6 +568,7 @@ footer {
   align-items: center;
 }
 
+
 @media (min-width: 768px) {
   .portfolio-list {
     flex-direction: row;
@@ -572,6 +579,7 @@ footer {
   .portfolio-item {
     margin: 1rem;
     width: calc(50% - 2rem);
+
   }
 }
 
