@@ -465,14 +465,14 @@ footer {
 
 .portfolio {
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color:var(--background-color);
   text-align: center;
 }
 
 .portfolio-title {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--textee-color);
 }
 
 .underline {
