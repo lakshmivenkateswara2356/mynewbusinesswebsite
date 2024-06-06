@@ -460,3 +460,123 @@ footer {
 
  padding: 43px;
 }
+
+/* Add these styles to your existing CSS file */
+
+.portfolio {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background-color: #00aaff;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.portfolio-item {
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.view-button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.view-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.abouthedingstyle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.sizing {
+  padding: 2rem;
+}
+
+.clintser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clintinage {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.elementalingmen h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.molp-para {
+  font-size: 1rem;
+  color: #666;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .portfolio-item {
+    margin: 1rem;
+    width: calc(50% - 2rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio-item {
+    width: calc(33.333% - 2rem);
+  }
+}
