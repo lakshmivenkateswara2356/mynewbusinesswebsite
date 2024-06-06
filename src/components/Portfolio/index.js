@@ -67,18 +67,22 @@ function Portfolio() {
           <h3>Chatting App</h3>
           <p className="allpara-styels">Creating a real-time chatting application using React.js</p>
           <button className="view-button">
-            <a href="https://vercel.com/venkateswara">View Project</a>
+            <a href="https://chatwithfrn.vercel.app/">View Project</a>
           </button>
         </div>
         <div className="portfolio-item">
           <h3>Nextrendz</h3>
           <p className="allpara-styels">Shopping application using technologies like HTML, CSS, JavaScript, and React.js</p>
-          <button className="view-button">View Project</button>
+          <button className="view-button">
+            <a href="https://nexttrendzshop.vercel.app/">View Project</a>
+          </button>
         </div>
         <div className="portfolio-item">
           <h3>Dashboard</h3>
           <p className="allpara-styels">Comprehensive dashboard for managing various data points efficiently.</p>
-          <button className="view-button">View Project</button>
+          <button className="view-button">
+            <a href="https://clnskillset.vercel.app/">View Project</a>
+          </button>
         </div>
       </div>
 
