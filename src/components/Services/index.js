@@ -25,7 +25,6 @@ function Services() {
           <p>Providing complete end-to-end web development services.</p>
         </div>
       </div>
-      
     </section>
   );
 }
