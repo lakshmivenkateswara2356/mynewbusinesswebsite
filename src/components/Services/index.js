@@ -12,7 +12,7 @@ function Services() {
           <p>Creating responsive and interactive user interfaces.</p>
           <p>using latest technologies was developing</p>
 
-          hjnh jhu yut 
+          <h>hgfvhg hgh hgh</h>
         </div>
         <div className="service">
           <h3>Backend Development</h3>
