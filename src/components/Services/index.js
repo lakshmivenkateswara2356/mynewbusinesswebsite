@@ -16,8 +16,7 @@ function Services() {
         </div>
         <div className="service">
           <h3>Backend Development</h3>
-          <p>Building robust server-side applications and RESTful APIs.</p>
-          
+          <p>Building robust server-side applications and RESTful APIs.</p> 
         </div>
         <div className="service">
           <h3>Fullstack Solutions</h3>
