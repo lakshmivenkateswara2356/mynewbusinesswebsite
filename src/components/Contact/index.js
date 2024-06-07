@@ -26,7 +26,7 @@ function Contact() {
           alert('Message sent successfully!');
       }, (error) => {
           console.log(error.text);
-          alert('Failed to send message. Please try again.');
+          alert('Failed to send message. Please try again. or reach out me lakshmivenkateswarapunnam@gmail.com');
       });
 
     setFormData({
