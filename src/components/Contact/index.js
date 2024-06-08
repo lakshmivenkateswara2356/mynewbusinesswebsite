@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { Linkedin, Mail,Github, CircleUserRound, } from 'lucide-react'
-
-
-
+import { Linkedin, Mail, Github, CircleUserRound } from 'lucide-react';
 
 
 function Contact() {
@@ -43,7 +40,7 @@ function Contact() {
   return (
     <section id="contact" className="contact-section">
       <h2>Contact Us</h2>
-      <div className="adjustmentlec"><h1 className="underline"></h1></div>
+      <div className="underline"></div>
       <div className="form-container">
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="informaton-edt">
@@ -73,7 +70,7 @@ function Contact() {
           <label>
             <textarea
               name="message"
-              className="textarea-fieldee"
+              className="textarea-field"
               placeholder="Enter your message here"
               value={formData.message}
               onChange={handleChange}
@@ -83,27 +80,29 @@ function Contact() {
           <button type="submit" className="submit-button">Send</button>
         </form>
       </div>
-      <div className='minisecpokl'>
-        <div className="koopw">
-      <div className='ContactVasuAlignee'>
-            <a href="mailto:lakshmivenkateswarapunnam@gmail.com" className='contactGmail1ee'>
+      <div className="contact-info">
+        <div className="social-icons">
+          <a href="mailto:lakshmivenkateswarapunnam@gmail.com" className='social-icon'>
             <Mail />
-        </a>
+          </a>
+          <a href='https://web.whatsapp.com+91 7842802368/' className='social-icon'>
+            <CircleUserRound />
+          </a>
+          <a href="https://www.linkedin.com/in/p-lakshmi-venkateswara-144510236/" className='social-icon'>
+            <Linkedin />
+          </a>
+          <a href="https://github.com/lakshmivenkateswara2356" className='social-icon'>
+            <Github />
+          </a>
         </div>
-        <div className='ContactVasuAlignee'>
-       <a href='https://web.whatsapp.com+91 7842802368/' > <CircleUserRound className='contactGmail1ee'/> </a>
-       </div>
-       
-       <div className='ContactVasuAlignee'> 
-       <a href=" https://www.linkedin.com/in/p-lakshmi-venkateswara-144510236/"><Linkedin className='contactGmail1ee' /></a>
-       </div>
-       <div className='ContactVasuAlignee'>
-       <a href="https://github.com/lakshmivenkateswara2356"><Github className='contactGmail1ee' /></a>
-       </div>
-       </div>
-       
-       <h1>vasy</h1>
-       
+        <div className="additional-info">
+          <h1>About Us</h1>
+          <p>We are committed to trustworthy service.</p>
+          <p>Zixa Technologies was established by Venkateswara.</p>
+          <h1>Contacts</h1>
+          <p>lakshmivenkateswarapunnam@gmail.com</p>
+          <p>+91 7842802368</p>
+        </div>
       </div>
     </section>
   );
