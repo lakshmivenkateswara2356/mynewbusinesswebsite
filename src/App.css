@@ -301,6 +301,7 @@ footer {
   gap: 20px;
   width: 100%;
   max-width: 500px;
+  
 }
 
 
@@ -409,10 +410,11 @@ h2 {
 
 .contact-form {
   width: 100%;
-  max-width: 600px;
+  max-width: 60px;
   background-color: var(--background-color);
   padding: 30px;
   border-radius: 8px;
+  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
