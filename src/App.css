@@ -21,6 +21,7 @@ body.light {
   --header-background: #1158e7;
   --header-text-color: #ffffff;
   --section-background: white;
+  --backgroundeee-color:rgb(223, 221, 221);
   --section-text-color: #405d97;
   --textert-color:white;
   --toggle-shadow: none;
@@ -34,6 +35,7 @@ body.dark {
   --font-family:bold;
   --text-color:white;
   --header-background: black;
+  --backgroundeee-color:rgb(38, 38, 38);
   --header-text-color:#ffffff;
   --section-background: black;
   --textert-color:gray;
@@ -300,18 +302,92 @@ footer {
   max-width: 500px;
 }
 
+
+.informaton-edt{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
 .input-field,
 .textarea-field {
   padding: 18px;
   border-radius: 8px;
   border: 1px solid var(--textee-color);
   background-color:var(--background-color);
+  
   font-size: 1rem;
   color: var(--texte-color);
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
   border-width: 2px;
 }
+
+.ContactVasuAlignee {
+  background-color:#0ceaea;
+  width: 28px;
+  height: 24px;
+  margin-left: 22px;
+  text-align: center;
+  padding-top: 4px;
+  border-radius: 8px;
+  border-style: solid;
+  color: rgb(18, 17, 17);
+  border-width: 1px;
+  margin-top: 12px;
+  
+}
+.ContactVasuAlignee:hover {
+  background-color:#1f1f38;
+  width: 28px;
+  height: 24px;
+  margin-left: 22px;
+  text-align: center;
+  padding-top: 4px;
+  border-radius: 8px;
+  border-style: solid;
+  color:white;
+  border-width: 1px;
+  box-shadow: 10px 10px 20px rgba(10, 10, 10, 0.5);
+  
+}
+
+.minisecpokl{
+  background-color:var(--backgroundeee-color);
+  color: white;
+  margin-top: 42px;
+  display: flex;
+  width:100vw;
+  margin-bottom: -46px;
+  margin-left: -42px;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.koopw {
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+}
+
+
+.textarea-fieldee {
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid var(--textee-color);
+  background-color:var(--background-color);
+  
+  font-size: 1rem;
+  color: var(--texte-color);
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  border-width: 2px;
+}
+
+
 
 .input-field:focus,
 .textarea-field:focus {
