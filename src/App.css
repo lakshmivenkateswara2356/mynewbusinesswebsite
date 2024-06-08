@@ -292,6 +292,7 @@ footer {
 .form-container {
   display: flex;
   justify-content: center;
+
  
 }
 
@@ -405,6 +406,7 @@ h2 {
   align-items: center;
   flex-direction: column;
   margin-bottom: 40px;
+ 
   
 }
 
@@ -421,6 +423,7 @@ h2 {
 .informaton-edt {
   display: flex;
   flex-direction: column;
+  
   gap: 15px;
 }
 
