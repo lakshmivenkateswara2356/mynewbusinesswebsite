@@ -103,7 +103,7 @@ function Contact() {
           <p lassName='pooert'>Zixa Technologies was established by Venkateswara.</p>
           </div>
          <div className='looper'>
-          
+          <load>jhgj </load>
           <h1 className='herculous'>Contact</h1>
           <p className='pooert'><a href='punnam8278@gmail.com'>punnam8278@gmail.com</a></p>
           <p>7842802368</p>
