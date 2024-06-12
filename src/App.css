@@ -563,8 +563,10 @@ h2 {
   max-width: 600px;
   display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content:space-around;
 }
+
+
 
 .additional-info h1 {
   font-size: 1.5rem;

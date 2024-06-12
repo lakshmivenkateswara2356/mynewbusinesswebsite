@@ -97,10 +97,16 @@ function Contact() {
           </a>
         </div>
         <div className="additional-info">
+          <div className='looper'>
           <h1>About Us</h1>
           <p>We are committed to trustworthy service.</p>
           <p>Zixa Technologies was established by Venkateswara.</p>
-          <h1>Contacts</h1>
+          </div>
+         <div className='looper'>
+          <h1>Contact</h1>
+          <p className='pooert'>punnam8278@gmail.com</p>
+          <p>7842802368</p>
+         </div>
           
         </div>
       </div>
