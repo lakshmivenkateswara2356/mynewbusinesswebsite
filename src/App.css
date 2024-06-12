@@ -138,7 +138,7 @@ header nav ul li a:hover {
   background-color: var(--header-backgro);
  
   padding: 1rem;
-  text-align: center;
+  text-align:center;
 }
 
 
@@ -148,6 +148,7 @@ header nav ul li a:hover {
 .theme-toggle-container {
   display: flex;
   align-items: center;
+ 
   position:sticky;
  
 }
