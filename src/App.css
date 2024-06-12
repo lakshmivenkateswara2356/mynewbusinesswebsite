@@ -544,7 +544,7 @@ h2 {
   margin: 12px;
   border-radius: 12px;
   font-weight: bold;
-  color:white;
+  color:red;
   background-color: var(--header-backgro);
 }
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { CiMail } from "react-icons/ci";
 import { Linkedin, Mail, Github, CircleUserRound } from 'lucide-react';
 
 
