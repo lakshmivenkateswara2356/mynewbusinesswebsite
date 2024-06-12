@@ -104,7 +104,6 @@ function Contact() {
           </div>
          <div className='looper'>
           <h1 className='herculous'>Contact</h1>
-          
           <p className='pooert'><a href='punnam8278@gmail.com'>punnam8278@gmail.com</a></p>
           <p>7842802368</p>
          </div>
