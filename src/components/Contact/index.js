@@ -98,13 +98,13 @@ function Contact() {
         </div>
         <div className="additional-info">
           <div className='looper'>
-          <h1>About Us</h1>
-          <p>We are committed to trustworthy service.</p>
-          <p>Zixa Technologies was established by Venkateswara.</p>
+          <h1 className='herculous'>About Us</h1>
+          <p lassName='pooert'>We are committed to trustworthy service.</p>
+          <p lassName='pooert'>Zixa Technologies was established by Venkateswara.</p>
           </div>
          <div className='looper'>
-          <h1>Contact</h1>
-          <p className='pooert'>punnam8278@gmail.com</p>
+          <h1 className='herculous'>Contact</h1>
+          <p className='pooert'><a href='punnam8278@gmail.com'>punnam8278@gmail.com</a></p>
           <p>7842802368</p>
          </div>
           

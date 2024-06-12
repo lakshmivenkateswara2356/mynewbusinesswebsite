@@ -228,9 +228,19 @@ footer {
   height: 45px;
   width: 45px;
   border-radius: 22px;
+  margin-left: -72px;
 }
 
+.herculous {
+  font-family: caveat;
+  font-size: 12px;
+}
 
+.pooert{
+  font-size: 12px;
+  font-family: caveat;
+  text-decoration: none;
+}
 
 
 
