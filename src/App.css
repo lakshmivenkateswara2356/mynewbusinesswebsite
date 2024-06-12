@@ -194,11 +194,6 @@ border-bottom-right-radius: 92px;
   }
 }
 
-
-
-
-
-
 header {
   position: fixed;
   top: 0;
@@ -247,10 +242,6 @@ footer {
   text-decoration: none;
 }
 
-
-
-
-
 .underlinee {
   background-color: #405d97;
   height: 3.5px;
@@ -259,9 +250,6 @@ footer {
   margin-top: -12px;
   
 }
-
-
-
 
 
 .adjustmentlec{
@@ -289,11 +277,6 @@ footer {
 .molp-para{
   max-width: 380px;
 }
-
-
-
-
-
 
 .services h2 {
   margin-bottom: 20px;
@@ -388,9 +371,6 @@ footer {
   justify-content: space-between;
   
 }
-
-
-
 
 .input-field,
 .textarea-field {
@@ -585,8 +565,6 @@ flex-direction: row;
 justify-content:space-around;
 }
 
-
-
 .additional-info h1 {
   font-size: 1.5rem;
   margin-bottom: 10px;
@@ -607,8 +585,6 @@ justify-content:space-around;
   flex-direction: column;
 }
 
-
-
 .textarea-fieldee {
   padding: 18px;
   border-radius: 8px;
@@ -621,8 +597,6 @@ justify-content:space-around;
   transition: border-color 0.3s, box-shadow 0.3s;
   border-width: 2px;
 }
-
-
 
 .input-field:focus,
 .textarea-field:focus {
@@ -734,7 +708,6 @@ justify-content:space-around;
   background-color: #405d97;
 }
 
- 
 .sizing {
   
   border-radius: 23px;
@@ -849,10 +822,6 @@ justify-content:space-around;
   color:#405d97 ;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-
-
-
-
 
 .clintinage {
   border-radius: 50%;
