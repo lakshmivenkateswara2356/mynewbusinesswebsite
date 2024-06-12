@@ -99,6 +99,7 @@ function Contact() {
         <div className="additional-info">
           <div className='looper'>
           <h1 className='herculous'>About Us</h1>
+        <h1>shjdg hdb </h1>
           <p lassName='pooert'>We are committed to trustworthy service.</p>
           <p lassName='pooert'>Zixa Technologies was established by Venkateswara.</p>
           </div>
