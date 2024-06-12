@@ -412,7 +412,7 @@ h2 {
 
 .contact-form {
   width: 100%;
-  max-width: 60px;
+  max-width: 700px;
   background-color: var(--background-color);
   padding: 30px;
   border-radius: 8px;
@@ -489,6 +489,9 @@ h2 {
 .additional-info {
   text-align: left;
   max-width: 600px;
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
 
 .additional-info h1 {
@@ -505,6 +508,12 @@ h2 {
   flex-direction: column;
   margin: 32px;
 }
+
+.jiooo {
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 .textarea-fieldee {
