@@ -100,8 +100,7 @@ function Contact() {
           <p>We are committed to trustworthy service.</p>
           <p>Zixa Technologies was established by Venkateswara.</p>
           <h1>Contacts</h1>
-          <p>lakshmivenkateswarapunnam@gmail.com</p>
-          <p>+91 7842802368</p>
+          
         </div>
       </div>
     </section>
