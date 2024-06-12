@@ -136,7 +136,8 @@ header nav ul li a:hover {
   left: 0;
   right: 0;
   background-color: #405d97;
-
+border-bottom-left-radius: 52px;
+border-bottom-right-radius: 92px;
   padding: 1rem;
   text-align:center;
 }
